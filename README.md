@@ -73,7 +73,7 @@ Notice the `maven://` coordinate, this means the SCDF server will resolve our ap
 This means we need to install our apps to our local Maven repo so that the server can find it:
 
 ```
-$ mvn install
+$ ./mvnw install
 
 ...
 
